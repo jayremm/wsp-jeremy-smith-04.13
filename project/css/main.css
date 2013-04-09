@@ -1,0 +1,40 @@
+body {
+   font: 100%/1.5 "Georgia", Times New Roman, serif;
+   max-width: 960px;
+   margin:3.75% auto;
+   background:#fff;
+}
+
+h1{
+    font: 100%/1.5 "Georgia", Times New Roman, serif;
+    font-weight:bold;
+    text-align:center;
+}
+
+h2{
+    font: 100%/1.5 "Georgia", Times New Roman, serif;
+    font-weight:bold;
+    text-align:center;
+}
+
+h3{
+    margin-left:2em;
+    margin-bottom:1em;
+    color:#26d6fc;
+}
+
+p{
+    padding:1em;
+}
+
+div{
+    border: 2em double #118faa;
+    padding:1em;
+}
+
+footer{
+    font-size:10px;
+    opacity:0.8;
+    background-color:gray;
+    text-align:center;
+}
