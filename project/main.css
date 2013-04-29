@@ -1,0 +1,257 @@
+/*-----------Body Content-----------*/
+
+body {
+   font: 100%/1.5 "Georgia", Times New Roman, serif;
+   max-width: 960px;
+   margin:3.75% auto;
+   background:white;
+}
+
+#logo img{
+	width:52.083333%;
+}
+
+h3{
+	font-size:1em;
+}
+
+.img{
+	float:left;
+	margin-left: 7em;
+	margin-right:7em;
+	width:22.916667%;
+	border: .4em solid gray;
+}
+
+.img img{
+	max-width:100%;	
+}
+
+#img img{
+	max-width:100%;
+}
+	
+table{
+  text-align:center;
+  margin:3.75% auto;
+  border: double gray;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  text-align: center;
+  background: gray;
+  color: white;
+  padding: 0.2em;
+}
+
+td {
+  border: 1px solid black; padding: 0.2em;
+}
+      	
+header{
+  text-align:center;
+  background:#cecabc;
+  overflow:hidden;
+  border: .3em solid #003333;
+}
+.main{
+	background: #dcdcdc;
+	padding: .4em;
+	margin: .6em;
+}
+section{
+	margin-top: 4em;
+}
+
+#main{
+	background: #dcdcdc;
+	padding: .4em;
+	clear:both;
+	float:none;
+	margin-top: 3em;
+}
+
+footer{
+  background:gray;
+  width:100%;
+  opacity:0.8;
+  font-size:0.6em;
+  text-align:center;
+}
+
+/*----------Menu Items----------*/
+
+ul
+{
+float:left;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+background:#dcdcdc;
+}
+a
+{
+float:left;
+width:6em;
+text-decoration:none;
+color:white;
+background-color:dcdcdc;
+padding:0.2em 0.6em;
+border-right:1px solid black;
+}
+a:hover {background-color:#bac4e1;}
+li {display:inline;}
+
+
+/*---------Form---------*/
+
+input:focus {
+  background: #b4b1a3;
+}
+
+#name {
+  text-align:left;
+}
+/*--Media Queries
+=====================================*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+ul
+{
+float:none;
+width:60%;
+padding:0;
+margin:0;
+list-style-type:none;
+background:#dcdcdc;
+}
+a
+{
+float:none;
+width:60%;
+text-decoration:none;
+color:white;
+background-color:dcdcdc;
+padding:0.2em 0.6em;
+border-right:1px solid black;
+}
+a:hover {background-color:#bac4e1;}
+li {display:inline;}
+
+
+body{
+	clear:both;
+}
+#navigation li a ul{
+	width:80%;
+}
+h3{
+	font-size:7em;
+}
+.img{
+	float:left;
+	margin-left: 7em;
+	margin-right:7em;
+	width:22.916667%;
+	border: .4em solid gray;
+}
+
+.img img{
+	max-width:100%;	
+}
+
+#img img{
+	max-width:100%;
+}
+#main{
+	background: #dcdcdc;
+	padding: .4em;
+	clear:both;
+	float:none;
+	margin-top: 4.2em;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+body{
+	clear:both;
+}
+.ilu{
+	float:left;
+	margin-top: 2em;
+}
+#navigation li a{
+	width:80%;
+}
+
+.img{
+	float:left;
+	margin-left: 7em;
+	margin-right:7em;
+	width:22.916667%;
+	border: .4em solid gray;
+}
+
+.img img{
+	max-width:100%;	
+}
+
+#img img{
+	max-width:100%;
+}
+#main{
+	background: #dcdcdc;
+	padding: .4em;
+	clear:both;
+	float:none;
+	margin-top: 4.2em;
+}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+#navigation li a{
+	width:60%;
+	float:none;
+}
+h3{
+	float:none;
+	font-size:7em;
+	overflow:hidden;
+	clear:both;
+}
+.img{
+	float:left;
+	margin-left: 7em;
+	margin-right:7em;
+	width:22.916667%;
+	border: .4em solid gray;
+}
+
+.img img{
+	max-width:100%;	
+}
+
+#img img{
+	max-width:100%;
+}
+#main{
+	background: #dcdcdc;
+	padding: .4em;
+	clear:both;
+	float:none;
+	margin-top: 4.2em;
+}
+
+}
